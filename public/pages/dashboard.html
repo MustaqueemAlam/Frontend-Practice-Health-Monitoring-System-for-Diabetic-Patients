@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header>
+        <img src="../images/logo.png" alt="Logo" class="logo">
+        <h1>Health Monitoring Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="patients.html">Patients</a></li>
+                <li><a href="physicians.html">Physicians</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="medications.html">Medications</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="overview">
+            <h2>Overview</h2>
+            <div class="card" onclick="location.href='patients.html'">
+                <img src="../images/patient.png" alt="Patients">
+                <h3>Patients</h3>
+                <p>Manage patient data</p>
+            </div>
+            <div class="card" onclick="location.href='physicians.html'">
+                <img src="../images/physician.png" alt="Physicians">
+                <h3>Physicians</h3>
+                <p>Manage physician information</p>
+            </div>
+            <div class="card" onclick="location.href='facilities.html'">
+                <img src="../images/facility.png" alt="Facilities">
+                <h3>Facilities</h3>
+                <p>Manage facility information</p>
+            </div>
+            <div class="card" onclick="location.href='medications.html'">
+                <img src="../images/medication.png" alt="Medications">
+                <h3>Medications</h3>
+                <p>Manage medications</p>
+            </div>
+        </section>
+    </main>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
